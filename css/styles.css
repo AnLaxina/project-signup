@@ -2,3 +2,43 @@
     font-family: "norse-bold";
     src: url("../font/Norse-Bold.otf");
 }
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* For the sidebar */
+aside {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+    background-image: url("../img/halie-west-background.jpg");
+}
+
+section.dark-background {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+
+section {
+    padding: 16px;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+}
