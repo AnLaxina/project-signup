@@ -128,4 +128,21 @@ fieldset {
 input {
     width: 200px;
     height: 30px;
+    border: 2px solid #48596d;
+    border-radius: 6px;
+}
+
+input[type="password"]:invalid {
+    border: 2px solid red;
+}
+
+input:focus {
+    border: 2px solid lightblue;
+    box-shadow: 5px 5px 5px lightblue;
+}
+
+label {
+    font-size: 0.9rem;
+    color: darkslategrey;
+    font-weight: bold;
 }
