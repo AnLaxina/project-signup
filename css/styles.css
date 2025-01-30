@@ -111,6 +111,7 @@ button:active {
 fieldset {
     height: 250px;
     padding: 16px;
+    box-shadow: 5px 5px 5px #5c486d;
 }
 
 .inputs {
@@ -152,4 +153,8 @@ a.login {
     font-weight: bold;
     text-decoration: none;
 
+}
+
+legend {
+    font-size: 1.8rem;
 }
