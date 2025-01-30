@@ -80,7 +80,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 600px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -106,4 +106,26 @@ button:hover {
 
 button:active {
     background-color: #404e34;
+}
+
+fieldset {
+    height: 250px;
+    padding: 16px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
 }
