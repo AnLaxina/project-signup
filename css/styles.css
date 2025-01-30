@@ -83,3 +83,27 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+}
+
+button:hover {
+    background-color: #7f9b67;
+}
+
+button:active {
+    background-color: #404e34;
+}
