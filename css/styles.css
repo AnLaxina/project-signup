@@ -5,6 +5,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 body,
@@ -16,7 +17,7 @@ html {
 
 /* For the sidebar */
 aside {
-    width: 35%;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -27,18 +28,38 @@ aside {
 }
 
 section.dark-background {
+    margin-top: 150px;
     width: 100%;
+    height: 20%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    background-color: black;
+    /* For a semi-transparent background. Bro so cool */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px;
+}
+
+p.odin-logo {
+    font-family: "norse-bold", monospace;
+    font-size: 4rem;
+    color: white;
 }
 
 section {
     padding: 16px;
 }
 
+section.attribution {
+    margin-top: auto;
+    color: white;
+}
+
 img {
-    width: 50%;
-    height: 100%;
+    /* Prevents image from being squished regardless how the container is sized */
+    max-width: 100px;
+    max-height: 100px;
+}
+
+a:visited {
+    color: inherit;
 }
