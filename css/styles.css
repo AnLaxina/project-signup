@@ -67,3 +67,19 @@ img {
 a:visited {
     color: inherit;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 32px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
